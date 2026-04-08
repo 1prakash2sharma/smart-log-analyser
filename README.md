@@ -117,10 +117,14 @@ This project demonstrates a beginner-level security detection workflow using Pyt
 
 ## Author
 
-Built by [Prakash Sharma]
+Built by Prakash Sharma
+
 ## Example Output
 
+### Screenshot
 ![Program Output](screenshots/output.png)
+
+### Terminal Output
 
 ```txt
 Suspicious Activity Report
