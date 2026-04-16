@@ -61,6 +61,8 @@ smart-log-analyser/
 
 ### Screenshot
 ![Dashboard](screenshots/output.png)
+![Dashboard](screenshots/output1.png)
+![Dashboard](screenshots/output2.png)
 
 ---
 
