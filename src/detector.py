@@ -38,3 +38,23 @@ def print_suspicious_activity(failed_attempts, threshold=3):
 
     if not found:
         print("No suspicious activity detected.")
+
+def detect_suspicious_times(login_times):
+    suspicious = []
+
+    for ip, time in login_times:
+        hour = int(time.split(":")[0])
+
+        if hour >= 0 and hour <= 5:
+            suspicious.append((ip, time))
+
+    return suspicious
+
+def detect_multiple_users(ip_users):
+    suspicious = {}
+
+    for ip, users in ip_users.items():
+        if len(users) > 1:
+            suspicious[ip] = users
+
+    return suspicious
